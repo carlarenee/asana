@@ -1,7 +1,7 @@
 {
 	"name": "gloriousbalance",
 	"version": "0.1.0",
-	"description": "A Wordpress theme.",
+	"description": "Custom wordpress theme for small size wellness business",
 	"main": "index.js",
 	"scripts": {
 		"scss": "node-sass --include-path scss sass/style.scss style.css --output-style=expanded --indent-type=tab --indent-width=1",
@@ -27,7 +27,8 @@
 		"last 2 versions"
 	],
 	"repository": {
-		"type": "git"
+		"type": "git",
+		"url": "git+https://github.com/carlarenee/asana.git"
 	},
 	"keywords": [
 		"Wordpress",
@@ -37,5 +38,8 @@
 	],
 	"author": "Carla Stockalper",
 	"license": "GPL-2.0",
-	}
+	"bugs": {
+		"url": "https://github.com/carlarenee/asana/issues"
+	},
+	"homepage": "https://github.com/carlarenee/asana#readme"
 }
